@@ -154,11 +154,22 @@ h6 {
   color: var(--main-color);
 }
 
+.navbar  .responsive-btn-2 {
+    display: none;
+}
+@media only screen and (max-width: 460px) {
+  .responsive-btn {
+    display: none;
+  }
+  .navbar  .responsive-btn-2 {
+    display: block;
+  }
+}
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #111111;
+  color: var(--main-color);
   font-size: 28px;
   cursor: pointer;
   display: none;
