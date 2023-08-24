@@ -154,15 +154,17 @@ h6 {
   color: var(--main-color);
 }
 
-.navbar  .responsive-btn-2 {
-    display: none;
+.navbar .responsive-btn-2 {
+  display: none;
 }
 @media only screen and (max-width: 460px) {
   .responsive-btn {
     display: none;
   }
-  .navbar  .responsive-btn-2 {
+  .navbar .responsive-btn-2 {
     display: block;
+    width: fit-content;
+    margin-left: 18px;
   }
 }
 /**
@@ -614,11 +616,12 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #18d26e;
   text-align: left;
   padding: 15px;
   font-weight: 600;
 }
+
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
